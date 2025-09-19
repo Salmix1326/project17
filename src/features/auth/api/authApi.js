@@ -20,6 +20,7 @@ export const authApi = baseApi.injectEndpoints({
       query: () => ({
         url: apiRoutes.auth.refresh,
         method: "POST",
+        credentials: "include",
       }),
     }),
   }),
