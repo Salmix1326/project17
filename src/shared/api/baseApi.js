@@ -3,7 +3,7 @@ import { setCredentials, logout } from "@/features/auth/api/authSlice";
 import { apiRoutes } from "../config/routes/apiRoutes";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "http://localhost:4000/api/",
+  baseUrl: "https://project17-back-1.onrender.com/",
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth?.accessToken;
