@@ -1,11 +1,11 @@
 export const apiRoutes = {
   auth: {
-    login: "auth/login",
-    logout: "auth/logout",
-    refresh: "auth/refresh",
-    profile: "auth/profile",
+    login: "api/auth/login",
+    logout: "api/auth/logout",
+    refresh: "api/auth/refresh",
+    profile: "api/auth/profile",
   },
-  users: "users",
-  posts: "posts",
-  comments: "comments",
+  users: "api/users",
+  posts: "api/posts",
+  comments: "api/comments",
 };
