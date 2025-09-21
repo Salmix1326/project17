@@ -1,5 +1,5 @@
 import { selectAuthUser } from "@/features/auth";
-import { PostList } from "@/widgets/postList/PostList.jsx";
+import { PostList } from "../widgets/postList/PostList.jsx"
 import { useSelector } from "react-redux";
 
 export default function PostsPage() {
