@@ -9,7 +9,7 @@ import { selectAuthUser } from "@/features/auth";
 import { roles } from "@/shared/config/roles";
 import PostEditModal from "@/features/post/editingPost/ui/PostEditModal";
 
-export function PostList() {
+function PostList() {
   const user = useSelector(selectAuthUser);
   const [page, setPage] = useState(1);
   const limit = 10;
@@ -91,3 +91,5 @@ export function PostList() {
     </div>
   );
 }
+
+export default PostList;
